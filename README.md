@@ -1,3 +1,3 @@
-# IntroProgramming-Lab Activities
+# Introdution to Programming - Lab Activities
 ------------------------------------------
 This repository contains my work for all Lab activities.
