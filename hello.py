@@ -3,5 +3,7 @@
 # Date: February 3, 2020
 def main():
     print("Hello, Professor Tidd!!")
+    print ("Goodbye")
 main()
+
 
