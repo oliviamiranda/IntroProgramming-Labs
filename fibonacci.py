@@ -7,6 +7,9 @@ def Fibonacci(n):
         return 1
     else:
         return Fibonacci(n - 1) + Fibonacci(n - 2)
-print ("Enter a number")
-x=
-print(Fibonacci())
+
+n = int(input("Please enter a value for N:"))
+
+print(Fibonacci(n))
+
+
