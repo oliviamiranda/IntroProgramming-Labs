@@ -1,4 +1,10 @@
-#Write a program that approximates the value of pi by summing the terms of this series: 4/1 – 4/3 + 4/5 – 4/7 + 4/9 – 4/11 + ...
-#The program should prompt the user for n, the number of terms to sum, and then output the sum of the first n terms of this series. Have your program subtract the approximation from the value of math.pi to see how accurate it is.
-#Tips: Don’t forget to import the math module and use the dot-operator when accessing properties of the math object. It will be easier if you use several variables – one for the result, one for the next term to be added, and one to keep track of the sign. A clever solution might incorporate the fact that you can use the step parameter for your loop range to make it simpler to track the denominator of each term. Also think about an upper bound that would make sense for the stop parameter.
-#Last resort only: If you and your neighbors really get stuck, refer to the author’s code solutions.
+def main():
+    n = int(input("Please enter a value for N:"))
+    total=0
+    for i in range(1,n):
+        total += (-1)**(i+1)*((1.0/(i+i+1)))
+
+    value = 4*(1-total)
+    print(value)
+
+main()
