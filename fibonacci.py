@@ -7,4 +7,6 @@ def Fibonacci(n):
         return 1
     else:
         return Fibonacci(n - 1) + Fibonacci(n - 2)
-print(Fibonacci(6))
+print ("Enter a number")
+x=
+print(Fibonacci())
